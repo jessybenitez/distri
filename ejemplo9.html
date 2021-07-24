@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejemplo 9- forms</title>
+</head>
+
+<body>
+<form action="mailto:jessikmaga@outlook.com" method="post">
+	<p>
+	Nombre:<input type="text" name="nombre" size="30">
+	Clave:<input type="password" name="clave" size="8">
+	<p>
+	Archivos a enviar<br>
+	<input type="checkbox" name="archivo" value="manual">Manual de html
+	<input type="checkbox" name="archivo" value="manual">Programa matphis
+	<input type="checkbox" name="archivo" value="manual">Archivo de ayuda
+	<p>
+	Tu edad:<br>
+	<input type="radio" name="edad" value="-20"> Menos de 20 años
+	<input type="radio" name="edad" value="20-40"> Entre 20 y 40 años
+	<input type="radio" name="edad" value="+40"> Mas de 40 años
+	<p>
+	<input type="hidden" name="lugar" value="pagina personal">
+	Como encontraste mi pagina?
+	<select name="donde">
+		<option>de casualidad</option>
+		<option>por el buscador de ole</option>
+		<option>por el buscador de yahoo</option>
+		<option>me la recomendaron</option>
+	</select>
+	<p>
+	Tus comentarios:<br>
+	<textarea name="comentarios" rows="5" cols="40" wrap="virtual"></textarea>
+	<p>
+	<input type="submit" value="enviar">
+	<input type="reset" value="borrar">
+</form>
+</body>
+</html>
